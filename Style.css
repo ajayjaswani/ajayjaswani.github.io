@@ -1,0 +1,198 @@
+button a{
+	color: black;
+}
+#About div.bg-image{
+	width: 100%;
+	height: 700px; 
+	background-image:url('bg3.jpg');
+	background-size: cover;
+
+}
+#About img{
+	height: 200px;
+	width: 200px;
+	border-radius: 10px;
+}
+#About ul{
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#About ul.social li{
+	display: inline;
+	padding: 4px;
+}
+#About ul.social{
+	padding: 2px;
+}
+#About a{
+	border-radius: 20px;
+}
+#About li{
+	padding: 5px;
+}
+#About div.card{
+	height: 600px;
+	width: 250px;
+	position: fixed;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+}
+#About ul.social li a i{
+	color: black;
+}
+#About ul.social li a i.fa-facebook:hover{
+	color:  #3b5998;
+}
+#About ul.social li a i.fa-linkedin:hover{
+	color:  #0077B5;
+}
+#About ul.social li a i.fa-github:hover{
+	color:  black;
+}
+#About ul.social li a i.fa-twitter:hover{
+	color:  #4099FF;
+}
+#About ul.social li a i.fa-instagram:hover{
+	color:  #bc2a8d;
+}
+#About span.personal{
+	color: white;	
+	position: absolute;
+	left: 300px;
+	top: 300px;
+	display: inline-block;
+	text-decoration-style: bold italic;
+}
+.buttons{
+	background: white;
+	width: 150px;
+	height: 40px;
+	border-radius: 30px;
+}
+.buttons:hover{
+	border-style: solid;
+	/*border-width: 10px;*/
+	border-color: : white;
+	background: black; 
+}
+.buttons:hover a{
+	color: white;
+}
+#Skills{
+	background: lightgrey;
+}
+
+.Skills .a{
+	display: inline-block;
+	font-size: 8rem;
+}
+.Skills .b {
+  display: none;
+  position: relative;
+  font-size: 8rem;
+}
+.Skills .ico:hover {
+  cursor: pointer;
+}
+.Skills .ico:hover .a {
+  display: none;
+}
+.Skills .ico:hover .b {
+  display: inline-block;
+}
+
+/*.devicon-html5-plain{
+	font-size: 8rem;
+}
+.devicon-java-plain{
+	font-size: 8rem;
+}
+.devicon-react-original{
+	font-size: 8rem;
+}
+.devicon-python-plain-wordmark{
+	font-size: 8rem;
+}
+.devicon-css3-plain{
+	font-size: 8rem;
+}
+.devicon-javascript-plain{
+	font-size: 8rem;
+}
+.devicon-jquery-plain{
+	font-size: 8rem;
+}
+.devicon-sass-original{
+	font-size: 8rem;
+}
+.devicon-mysql-plain{
+	font-size: 8rem;
+}
+.devicon-wordpress-plain-wordmark{
+	font-size: 8rem;
+}
+.devicon-linux-plain{
+	font-size: 8rem;
+}
+.devicon-nodejs-plain-wordmark{
+	font-size: 8rem;
+}*/
+#Skills div.row{
+	padding-left: 200px;
+}
+#Skills div.col{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#Skills div.row h4{
+	text-align: center;
+}
+
+#Resume h4{
+	text-align: center;
+
+}
+#Resume div.row{
+	padding-left: 150px;
+}
+.card-content{
+	text-align: center;
+}
+#Resume ul li{
+	text-align: left;
+}
+i.fa-desktop{
+	align-content: left;
+}
+#Contact h4{
+	text-align: center;
+}
+#Contact div.row {
+	padding-left: 150px;
+	/*margin-left: 200px;*/
+}
+#Contact .card{
+	width: 500px;
+}
+
+footer{
+	background: black;
+	position: relative;
+	height: 50px;
+}
+.footer {
+	text-align: center;
+}
+#footer p{
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 5px;	
+} 
+#footer i{
+	color: red;
+}
